@@ -7,10 +7,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+    colors: {
+      primary: {
+        500: "#7551DC",
+        100: "#DBD1FC",
+      },
+      secondary: {
+        500: "#FFCC6A",
+        100: "#F9EEE2",
+      },
+      neutral: {
+        white: "#FFF",
+        black: "#121212",
       },
     },
   },
