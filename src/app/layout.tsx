@@ -20,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${DMSansFont.className} font-primary`}>{children}</body>
+      <body className={`${DMSansFont.className} bg-[#F6F5F6] font-primary`}>
+        {children}
+      </body>
     </html>
   );
 }
