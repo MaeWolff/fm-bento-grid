@@ -7,6 +7,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      primary: "var(--dm-sans-font)",
+    },
     colors: {
       primary: {
         500: "#7551DC",
