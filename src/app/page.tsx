@@ -9,7 +9,7 @@ import WriteAiSection from "@/components/home/write-ai-section";
 
 export default function Home() {
   return (
-    <main className="md:grid-rows-bento-grid-tablet lg:grid-rows-bento-grid-desktop grid grid-cols-1 gap-8 px-4 py-8 md:grid-cols-2 md:px-10 md:py-14 lg:mx-auto lg:max-w-[1120px] lg:grid-cols-4">
+    <main className="md:grid-rows-bento-grid-tablet lg:grid-rows-bento-grid-desktop grid grid-cols-1 gap-8 px-4 py-8 md:grid-cols-2 md:px-10 md:py-14 lg:mx-auto lg:max-w-[1200px] lg:grid-cols-[repeat(4,256px)]">
       <SocialMediaSection gridPosition="md:col-span-2 lg:col-start-2" />
       <ManageMultipleSection gridPosition="lg:col-start-2 lg:row-span-2 lg:row-start-2" />
 

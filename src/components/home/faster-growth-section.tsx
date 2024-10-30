@@ -13,15 +13,16 @@ export default function FasterGrowthSection({
       )}
     >
       <header className="flex flex-col gap-4">
-        <p className="text-preset-1 font-medium">56% </p>
+        <p className="text-preset-1 font-medium">&gt; 56%</p>
         <p className="text-preset-4">faster audience growth</p>
       </header>
 
-      <div className="flex flex-row">
-        <div className="h-16 w-16 rounded-full bg-primary-500"></div>
-        <div className="h-16 w-16 rounded-full bg-primary-500"></div>
-        <div className="h-16 w-16 rounded-full bg-primary-500"></div>
-      </div>
+      <img
+        src="avatars.png"
+        alt="illustration memoji avatar"
+        width={170}
+        height={66}
+      />
     </section>
   );
 }

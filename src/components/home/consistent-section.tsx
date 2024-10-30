@@ -24,7 +24,7 @@ export default function ConstistentSection({
 
 function ConsistentSchedule() {
   return (
-    <div className="absolute -bottom-10 w-[212px] md:-bottom-16">
+    <div className="absolute -bottom-10 w-[212px] md:-bottom-16 lg:-bottom-24">
       <header className="flex w-full flex-row justify-between rounded-t-md bg-primary-500 px-2 py-3 text-neutral-white">
         <p>August 2024</p>
         <p>Week1</p>
