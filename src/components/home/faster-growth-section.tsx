@@ -1,4 +1,5 @@
 import { cn } from "@/utils/cn";
+import NextImage from "next/image";
 
 export default function FasterGrowthSection({
   gridPosition,
@@ -17,11 +18,12 @@ export default function FasterGrowthSection({
         <p className="text-preset-4">faster audience growth</p>
       </header>
 
-      <img
-        src="avatars.png"
+      <NextImage
+        src="/avatars.png"
         alt="illustration memoji avatar"
         width={170}
         height={66}
+        className="object-contain"
       />
     </section>
   );

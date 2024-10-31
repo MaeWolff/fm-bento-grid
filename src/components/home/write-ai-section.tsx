@@ -1,4 +1,5 @@
 import { cn } from "@/utils/cn";
+import NextImage from "next/image";
 
 export default function WriteAiSection({
   gridPosition,
@@ -14,8 +15,8 @@ export default function WriteAiSection({
     >
       <p className="text-preset-2 font-medium">Write your content using AI.</p>
 
-      <img
-        src="write-ai-illustrations.png"
+      <NextImage
+        src="/write-ai-illustrations.png"
         alt="illustration write ai"
         width={220}
         height={220}
