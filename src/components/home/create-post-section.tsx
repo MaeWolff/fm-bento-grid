@@ -1,5 +1,6 @@
 import { cn } from "@/utils/cn";
 import SpinkleIcon from "../ui/icons/spinkle-icon";
+import CursorIcon from "../ui/icons/cursor-icon";
 
 export default function CreatePostSection({
   gridPosition,
@@ -17,9 +18,10 @@ export default function CreatePostSection({
         Create and schedule content <i className="text-primary-500">quicker</i>.
       </p>
 
-      <button className="flex w-fit flex-row items-center gap-2 rounded-full bg-secondary-500 px-6 py-4 text-lg font-medium text-primary-500">
+      <button className="relative flex w-fit flex-row items-center gap-2 rounded-full bg-secondary-500 px-6 py-4 text-lg font-medium text-primary-500">
         Create Post
         <SpinkleIcon />
+        <CursorIcon className="absolute -bottom-5 right-16" />
       </button>
     </section>
   );
