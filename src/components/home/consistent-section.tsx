@@ -51,13 +51,13 @@ function ConsistentSchedule() {
 
         <div className="flex w-full justify-between">
           {[...Array(4)].map((_, i) => (
-            <div className="h-6 w-6 rounded-md bg-secondary-100"></div>
+            <div key={i} className="h-6 w-6 rounded-md bg-secondary-100"></div>
           ))}
         </div>
 
         <div className="flex w-full justify-between">
           {[...Array(4)].map((_, i) => (
-            <div className="h-6 w-6 rounded-md bg-secondary-100"></div>
+            <div key={i} className="h-6 w-6 rounded-md bg-secondary-100"></div>
           ))}
         </div>
       </div>
